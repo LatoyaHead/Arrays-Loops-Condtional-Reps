@@ -70,6 +70,40 @@ console.log('------------------------------')
 
 ////////////////////////////////
 // Methods, Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+let titanic = favMovies.indexOf('Titanic')
+console.log(titanic);
+
+favMovies.sort()
+console.log(favMovies);
+
+favMovies.pop()
+console.log(favMovies);
+
+favMovies.push("Guardians of the Galaxy")
+console.log(favMovies);
+
+favMovies.reverse()
+console.log(favMovies);
+
+favMovies.shift()
+console.log(favMovies);
+
+favMovies.unshift('Ray J')
+console.log(favMovies);
+
+let avatar = favMovies.indexOf('Django Unchained')
+favMovies.splice(15, 1, 'Avatar')
+console.log(favMovies);
+
+
+const fave = favMovies.slice(favMovies.length / 2)
+console.log(fave);
+
+let fast = favMovies.indexOf('Fast and Furious')
+console.log(fast);
+// -1 for something not found in index of
 ////////////////////////////////
 
 
