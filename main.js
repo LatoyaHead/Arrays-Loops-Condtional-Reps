@@ -53,11 +53,18 @@ console.log(`sharky [${sharky}]`);
 console.log(`plantee [${plantee}]`);
 console.log(`porgee [${porgee}]`);
 console.log(`dart [${dart}]`);
+console.log('------------------------------')
 ////////////////////////////////
 
 
 ////////////////////////////////
 // Yell at the Ninja Turtles
+const turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+
+for(const turtle of turtles) {
+  console.log(turtle.toUpperCase());
+}
+console.log('------------------------------')
 ////////////////////////////////
 
 
