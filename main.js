@@ -104,6 +104,7 @@ console.log(fave);
 let fast = favMovies.indexOf('Fast and Furious')
 console.log(fast);
 // -1 for something not found in index of
+console.log('------------------------------')
 ////////////////////////////////
 
 
@@ -120,11 +121,20 @@ whereIsWaldo[1].splice(2, 1, "No One")
 console.log(whereIsWaldo);
 
 console.log(whereIsWaldo[2][1][1]);
+console.log('------------------------------')
 ////////////////////////////////
 
 
 ////////////////////////////////
 //  Excited Kitten
+for(let i = 1; i <= 20; i++) {
+  if(i % 2 === 0) {
+    console.log('the catnip made me do it');
+    continue
+  }
+  console.log('Love me, pet me! HSSSSSS!')
+} 
+console.log('------------------------------')
 ////////////////////////////////
 
 
